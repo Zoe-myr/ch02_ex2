@@ -53,6 +53,8 @@
     for ($i = 1; $i <= $years; $i++) {
         $future_value += $future_value * $interest_rate * .01; 
     }
+    
+    
 
     
 
@@ -60,6 +62,9 @@
     $investment_f = '$'.number_format($investment, 2);
     $yearly_rate_f = $interest_rate.'%';
     $future_value_f = '$'.number_format($future_value, 2);
+    $investment = '';
+    $interest_rate = '';
+    $years = '';
     }
     $date = date('m/d/Y');
 ?> 
